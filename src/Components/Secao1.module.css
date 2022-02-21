@@ -1,0 +1,25 @@
+.inicio {
+    background: url(../Assets/fundo.png) no-repeat center center;
+    color: white;
+    height: 100vh;
+}
+
+.textos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.textos h1{
+    font-size: 125px;
+    text-align: center;
+}
+
+.textos p{
+    margin-top: 40px;
+    text-align: center;
+    width: 70%;
+    text-shadow: 0px 1px rgba(0, 0, 0, .1);;
+}
