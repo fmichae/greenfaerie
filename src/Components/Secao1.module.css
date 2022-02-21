@@ -1,5 +1,7 @@
 .inicio {
     background: url(../Assets/fundo.png) no-repeat center center;
+    background-size: cover ;
+    background-attachment: fixed;
     color: white;
     height: 100vh;
 }
@@ -15,10 +17,15 @@
 .textos h1{
     font-size: 125px;
     text-align: center;
+    font-family: 'Oleo Script', cursive;
+    margin-bottom: -60px;
 }
 
+.up h1{
+    margin-bottom: -60px;
+}
 .textos p{
-    margin-top: 40px;
+    margin-top: 69px;
     text-align: center;
     width: 70%;
     text-shadow: 0px 1px rgba(0, 0, 0, .1);;

@@ -6,6 +6,9 @@
     top: 10px;
 }
 
+.header .active{
+    background-color: #060A09;
+}
 .nav{
     display: flex;
     justify-content: space-between;

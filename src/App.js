@@ -8,23 +8,21 @@ import Covens from './Components/Covens';
 import RingExterno from './Components/RingExterno';
 import Eventos from './Components/Eventos';
 import Consultas from './Components/Consultas';
-import { BrowserRouter } from "react-router-dom";
 
-function App() {
-  return (
+
+export default class Nav extends React.Component {
+  render(){
+      return(
     <>
-    <BrowserRouter>
       <Header />
       <Secao1 />
-      <ATradicao id="Atradicao"/>
-      <Covens id="Covens"/>
-      <RingExterno id="RingExterno"/>
-      <Eventos id="Eventos"/>
-      <Consultas id="Consultas"/>
+      <ATradicao />
+      <Covens/>
+     <RingExterno/>
+     <Eventos/>
+     <Consultas/>
       <Footer/>
-    </BrowserRouter>
-    </>
-  );
+      </>
+      );
+    }
 }
-
-export default App;

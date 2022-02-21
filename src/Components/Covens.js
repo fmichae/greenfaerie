@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import style from './covens.module.css';
 
-const Covens = () => {
+const ATradicao = () => {
   return (
-    <div>Covens</div>
+    <div className={`${style.Covens} container`}>
+      <h4>A Tradição</h4>
+    </div>
   )
 }
 
-export default Covens
+export default ATradicao

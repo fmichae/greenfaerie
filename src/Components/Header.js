@@ -1,21 +1,25 @@
 import React from 'react';
 import styles from './Header.module.css';
-import { HashLink as Link } from 'react-router-hash-link'; 
 import { ReactComponent as MTGF } from '../Assets/Frame.svg';
 
 const Header = () => {
-  return (
-    <header className={styles.header}>
-      <nav className={`${styles.nav} container`}>
-      <Link className={styles.logo} to="/" aria-label='Green - Faerie - Logo'>
-            <MTGF />
-        </Link>
+  const {menu, setMenu} = React.useState("");
 
-        <Link to="#Secao1">INÍCIO</Link>
-        <Link to="#ATradicao">A TRADIÇÃO</Link>
-        <Link to="#RingExterno">COVENS</Link>
-        <Link to="#Eventos">EVENTOS</Link>
-        <Link to="#Consultas">CONSULTAS</Link>
+  function mudaBg() {
+     setMenu("active");
+  }
+  return (
+    <header onScroll={mudaBg} className={`${styles.header} ${menu}`}>
+      <nav className={`${styles.nav} container`}>
+      <a className={styles.logo} href="/" aria-label='Green - Faerie - Logo'>
+            <MTGF />
+        </a>
+
+        <a href="#Secao1">INÍCIO</a>
+        <a href="#ATradicao">A TRADIÇÃO</a>
+        <a href="#RingExterno">COVENS</a>
+        <a href="#Eventos">EVENTOS</a>
+        <a href="#Consultas">CONSULTAS</a>
 
       </nav>
     </header>
