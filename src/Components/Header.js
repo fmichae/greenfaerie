@@ -17,7 +17,8 @@ const Header = () => {
 
         <a href="#Secao1">INÍCIO</a>
         <a href="#ATradicao">A TRADIÇÃO</a>
-        <a href="#RingExterno">COVENS</a>
+        <a href="#Covens">COVENS</a>
+        <a href="#RingExterno">RING EXTERNO</a>
         <a href="#Eventos">EVENTOS</a>
         <a href="#Consultas">CONSULTAS</a>
 

@@ -4,7 +4,7 @@ import styles from './Secao1.module.css';
 
 const Secao1 = () => {
   return (
-    <div className={styles.inicio}>
+    <div id="Secao1" className={styles.inicio}>
       <div className={`${styles.textos} container`}>
         <h1 className={styles.up}>Tradição</h1>
         <h1>Green Faerie</h1>

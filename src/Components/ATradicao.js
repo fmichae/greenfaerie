@@ -4,7 +4,7 @@ import Fundador from '../Assets/valdir.png';
 
 const ATradicao = () => {
   return (
-    <div className={`${style.ATradicao} container`}>
+    <div id="ATradicao" className={`${style.ATradicao} container`}>
       <h4>A Tradição</h4>
       <h5>Fundador</h5>
       <div className={style.fundador}>

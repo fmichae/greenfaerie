@@ -4,10 +4,10 @@ import Header from "./Components/Header";
 import './App.css';
 import Secao1 from './Components/Secao1';
 import ATradicao from './Components/ATradicao';
-import Covens from './Components/Covens';
 import RingExterno from './Components/RingExterno';
 import Eventos from './Components/Eventos';
 import Consultas from './Components/Consultas';
+import Covens from './Components/Covens';
 
 
 export default class Nav extends React.Component {
@@ -17,10 +17,10 @@ export default class Nav extends React.Component {
       <Header />
       <Secao1 />
       <ATradicao />
-      <Covens/>
-     <RingExterno/>
-     <Eventos/>
-     <Consultas/>
+      <Covens />
+      <RingExterno/>
+      <Eventos/>
+      <Consultas/>
       <Footer/>
       </>
       );
