@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import style from './RingExterno.module.css'
 
 const RingExterno = () => {
   return (
-    <div>RingExterno</div>
+    <div id="RingExterno"className={style}>RingExterno</div>
   )
 }
 

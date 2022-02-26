@@ -15,7 +15,7 @@ const Header = () => {
             <MTGF />
         </a>
 
-        <a href="#Secao1">INÍCIO</a>
+        
         <a href="#ATradicao">A TRADIÇÃO</a>
         <a href="#Covens">COVENS</a>
         <a href="#RingExterno">RING EXTERNO</a>
